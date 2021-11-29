@@ -10,10 +10,7 @@ import javax.persistence.Id;
 public class Garnish {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.TABLE)
-    private int id;
-
-    private String garnish_id;
+ private String garnish_id;
     private String garnish_name;
     private String garnish_desc;
 

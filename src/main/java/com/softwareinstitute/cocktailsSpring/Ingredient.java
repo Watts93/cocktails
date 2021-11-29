@@ -10,10 +10,7 @@ import javax.persistence.Id;
 public class Ingredient {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.TABLE)
-    private int id;
-
-    private String ingred_id;
+private String ingred_id;
     private String ingred_name;
     private String ingred_type;
     private String ingred_desc;

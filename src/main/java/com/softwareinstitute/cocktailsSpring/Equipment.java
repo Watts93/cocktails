@@ -10,10 +10,7 @@ import javax.persistence.Id;
 public class Equipment {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.TABLE)
-    private int id;
-
-    private String equipment_id;
+ private String equipment_id;
     private String equipment_name;
     private String equipment_desc;
 

@@ -10,10 +10,7 @@ import javax.persistence.Id;
 public class Instructions {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.TABLE)
-    private int id;
-
-    private String instruct_id;
+ private String instruct_id;
     private String instruct_desc;
     private Integer instruct_order;
 

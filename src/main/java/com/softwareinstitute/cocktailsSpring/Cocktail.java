@@ -10,10 +10,8 @@ import javax.persistence.Id;
 public class Cocktail {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.TABLE)
-    private int id;
-
     private String cocktail_name;
+
     private String cocktail_type;
     private Integer cocktail_av;
 
@@ -50,6 +48,8 @@ public class Cocktail {
     public void setCocktail_av(Integer cocktail_av) {
         this.cocktail_av = cocktail_av;
     }
+
+
 
     @Override public String toString() {
         return "{" +
